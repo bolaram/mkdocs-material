@@ -19,17 +19,15 @@
 # IN THE SOFTWARE.
 
 # Project information
-site_name: Material for MkDocs
-site_url: https://squidfunk.github.io/mkdocs-material/
-site_author: Martin Donath
+site_name: gRPC-Gateway
+site_url: #
+site_author: grpc-gateway
 site_description: >-
-  Create a branded static site from a set of Markdown files to host the
-  documentation of your Open Source or commercial project – customizable,
-  searchable, mobile-friendly, 40+ languages
+  The gRPC-Gateway brings the power and safety of designing APIs with Protobuf and gRPC to the JSON/HTTP API world. 
 
 # Repository
-repo_name: squidfunk/mkdocs-material
-repo_url: https://github.com/squidfunk/mkdocs-material
+repo_name: https://github.com/bolaram/gRPC-Gateway
+repo_url: #
 edit_uri: ""
 
 # Copyright
@@ -74,17 +72,17 @@ plugins:
 extra:
   social:
     - icon: fontawesome/brands/github
-      link: https://github.com/squidfunk
+      link: #
     - icon: fontawesome/brands/gitter
-      link: https://gitter.im/squidfunk/mkdocs-material
+      link: #
     - icon: fontawesome/brands/docker
-      link: https://hub.docker.com/r/squidfunk/mkdocs-material/
+      link: #
     - icon: fontawesome/brands/twitter
-      link: https://twitter.com/squidfunk
+      link: #
     - icon: fontawesome/brands/linkedin
-      link: https://linkedin.com/in/squidfunk/
+      link: #
     - icon: fontawesome/brands/instagram
-      link: https://instagram.com/squidfunk
+      link: #
 
 # Extensions
 markdown_extensions:
@@ -128,7 +126,7 @@ markdown_extensions:
 nav:
   - Home: index.md
   - Getting started: getting-started.md
-  - Extensions:
+  - Docs:
     - Admonition: extensions/admonition.md
     - CodeHilite: extensions/codehilite.md
     - Footnotes: extensions/footnotes.md
